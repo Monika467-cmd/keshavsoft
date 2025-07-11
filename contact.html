@@ -74,9 +74,8 @@
 <!-- Simple JS for showing alert -->
 <script>
   document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // prevent form refresh
+    e.preventDefault();
     document.getElementById('alertMsg').classList.remove('d-none');
-    // Optionally, reset the form:
     this.reset();
   });
 </script>
